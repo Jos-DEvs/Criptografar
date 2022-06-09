@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Criptografia</title>
+		<!--link rel="icon" href="favicon.ico" type="image/x-icon"-->
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+	
+	<body>
+		<header>
+			<div class="container">
+				<h2><img src="logo.png" width="20" height="20" alt="logo" title="logo" class="logo"/></h2>
+			</div>
+		</header>
+
+		<main>
+			<section class="conteudo">
+				<section class="principal">
+					<form id="form-digitado">
+					<span class="exibirTextEntrado"></span>
+						<textarea name="textoDigitado" id="textoDigitado"  cols="40" rows="15" placeholder="Digite seu texto" required></textarea>
+						<div class="botoes">
+							<input type="submit" value="Criptografar" class="criptografa"> 
+							<input type="submit" value="Descriptografar" class="descriptografa">
+							<input type="reset" value="Reset" class="reset">
+						</div>
+					</form>
+				</section>
+				
+				<section class="segundo">
+					<form id="form-exibir">
+					<span class="exibirTextSaido"></span>
+						<textarea name="textoExibido" id="textoExibido"  cols="30" rows="26" placeholder="Nenhuma messagem encontrada" readonly required></textarea>
+					</form>
+				</section>
+			</section>
+		</main>
+
+		<footer>
+			<p class="copyright">&copy; 2022 - by Josué Rosier &nbsp; <a href="https://www.linkedin.com/posts/josu%C3%A9-rosier-637b22240_activity-6940041306253459457-S3fY?utm_source=linkedin_share&utm_medium=member_desktop_web" accesskey="a" title="Linkedin"><img src="linkedin.png" width="29" height="18" class="linkedin"/></a> &nbsp; &nbsp;  <a href="https://jos-devs.github.io/Criptografar/" accesskey="a" title="github"><img src="github.png" width="29" height="18" class="github"/></a></p> 
+		</footer>
+		<script src="criptografa.js"></script>
+	</body>
+	
+</html>
